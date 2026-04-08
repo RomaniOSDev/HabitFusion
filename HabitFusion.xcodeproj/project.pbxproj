@@ -17,9 +17,6 @@
 		746A25F22F867CB90076A047 /* HabitListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25D12F867CB90076A047 /* HabitListViewModel.swift */; };
 		746A25F32F867CB90076A047 /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25D22F867CB90076A047 /* ProgressViewModel.swift */; };
 		746A25F42F867CB90076A047 /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25D32F867CB90076A047 /* StatisticsViewModel.swift */; };
-		746A25F52F867CB90076A047 /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25D52F867CB90076A047 /* CheckLink.swift */; };
-		746A25F62F867CB90076A047 /* InternetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25D62F867CB90076A047 /* InternetViewController.swift */; };
-		746A25F72F867CB90076A047 /* LoaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25D72F867CB90076A047 /* LoaderViewController.swift */; };
 		746A25F82F867CB90076A047 /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25D92F867CB90076A047 /* AddHabitView.swift */; };
 		746A25F92F867CB90076A047 /* MainDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25DA2F867CB90076A047 /* MainDashboardView.swift */; };
 		746A25FA2F867CB90076A047 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25DB2F867CB90076A047 /* ProgressView.swift */; };
@@ -40,9 +37,6 @@
 		746A25D12F867CB90076A047 /* HabitListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListViewModel.swift; sourceTree = "<group>"; };
 		746A25D22F867CB90076A047 /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
 		746A25D32F867CB90076A047 /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
-		746A25D52F867CB90076A047 /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
-		746A25D62F867CB90076A047 /* InternetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetViewController.swift; sourceTree = "<group>"; };
-		746A25D72F867CB90076A047 /* LoaderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderViewController.swift; sourceTree = "<group>"; };
 		746A25D92F867CB90076A047 /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
 		746A25DA2F867CB90076A047 /* MainDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardView.swift; sourceTree = "<group>"; };
 		746A25DB2F867CB90076A047 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
@@ -124,20 +118,9 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
-		746A25D82F867CB90076A047 /* LoadingView */ = {
-			isa = PBXGroup;
-			children = (
-				746A25D52F867CB90076A047 /* CheckLink.swift */,
-				746A25D62F867CB90076A047 /* InternetViewController.swift */,
-				746A25D72F867CB90076A047 /* LoaderViewController.swift */,
-			);
-			path = LoadingView;
-			sourceTree = "<group>";
-		};
 		746A25DE2F867CB90076A047 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				746A25D82F867CB90076A047 /* LoadingView */,
 				746A25D92F867CB90076A047 /* AddHabitView.swift */,
 				746A25DA2F867CB90076A047 /* MainDashboardView.swift */,
 				746A25DB2F867CB90076A047 /* ProgressView.swift */,
@@ -289,9 +272,6 @@
 				746A25F22F867CB90076A047 /* HabitListViewModel.swift in Sources */,
 				746A25F32F867CB90076A047 /* ProgressViewModel.swift in Sources */,
 				746A25F42F867CB90076A047 /* StatisticsViewModel.swift in Sources */,
-				746A25F52F867CB90076A047 /* CheckLink.swift in Sources */,
-				746A25F62F867CB90076A047 /* InternetViewController.swift in Sources */,
-				746A25F72F867CB90076A047 /* LoaderViewController.swift in Sources */,
 				746A25F82F867CB90076A047 /* AddHabitView.swift in Sources */,
 				746A25F92F867CB90076A047 /* MainDashboardView.swift in Sources */,
 				746A25FA2F867CB90076A047 /* ProgressView.swift in Sources */,
