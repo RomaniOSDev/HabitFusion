@@ -7,8 +7,8 @@ workflows:
         vars:
           XCODE_WORKSPACE: "HabitFusion.xcworkspace"
           XCODE_SCHEME: "HabitFusion"
-          BUNDLE_ID: "com.don.r41nf8sh6b"
-          EXTENSION_BUNDLE_ID: "com.don.r41nf8sh6b.OneSignalNotificationServiceExtension"
+          BUNDLE_ID: "com.kim.r3dlz0n6h"
+          
           APP_STORE_APP_ID: 6746220155
         xcode: latest
         cocoapods: 1.14.2
@@ -25,7 +25,7 @@ workflows:
         - name: Fetch signing files
           script: |
             app-store-connect fetch-signing-files $BUNDLE_ID --type IOS_APP_STORE --create
-            app-store-connect fetch-signing-files $EXTENSION_BUNDLE_ID --type IOS_APP_STORE --create
+            
         - name: Use system default keychain
           script: |
             keychain add-certificates
