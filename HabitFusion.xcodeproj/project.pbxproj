@@ -316,7 +316,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HabitFusion/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "RainbeFusion: Habit";
+				INFOPLIST_KEY_CFBundleDisplayName = "RoutineReactor: Habit";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kim.r3dlz0n6h;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sar.r08t3n3r38ct0rh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -354,7 +354,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HabitFusion/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = "RainbeFusion: Habit";
+				INFOPLIST_KEY_CFBundleDisplayName = "RoutineReactor: Habit";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -366,7 +366,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kim.r3dlz0n6h;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sar.r08t3n3r38ct0rh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

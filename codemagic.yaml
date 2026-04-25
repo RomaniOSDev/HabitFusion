@@ -7,7 +7,7 @@ workflows:
         vars:
           XCODE_WORKSPACE: "HabitFusion.xcworkspace"
           XCODE_SCHEME: "HabitFusion"
-          BUNDLE_ID: "com.kim.r3dlz0n6h"
+          BUNDLE_ID: "сom.sar.r08t3n3r38ct0rh"
           
           APP_STORE_APP_ID: 6746220155
         xcode: latest
