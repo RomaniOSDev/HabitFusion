@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3063E0192FA75B340071A61B /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063E0152FA75B340071A61B /* PrivacyWebView.swift */; };
+		3063E01A2FA75B340071A61B /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063E0142FA75B340071A61B /* PersistenceManager.swift */; };
+		3063E01B2FA75B340071A61B /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063E0132FA75B340071A61B /* AppRouter.swift */; };
+		3063E01C2FA75B340071A61B /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063E0172FA75B340071A61B /* StartMainView.swift */; };
+		3063E01D2FA75B340071A61B /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063E0162FA75B340071A61B /* SaveService.swift */; };
 		746A25EA2F867CB90076A047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746A25E02F867CB90076A047 /* Assets.xcassets */; };
 		746A25EC2F867CB90076A047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A25E42F867CB90076A047 /* LaunchScreen.storyboard */; };
 		746A25ED2F867CB90076A047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A25E62F867CB90076A047 /* Main.storyboard */; };
@@ -29,6 +34,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3063E0132FA75B340071A61B /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		3063E0142FA75B340071A61B /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		3063E0152FA75B340071A61B /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		3063E0162FA75B340071A61B /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		3063E0172FA75B340071A61B /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
 		3723304C6393FA911CDB0697 /* Pods_HabitFusion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabitFusion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		746A25CA2F867CB90076A047 /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
 		746A25CB2F867CB90076A047 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
@@ -72,6 +82,18 @@
 				3723304C6393FA911CDB0697 /* Pods_HabitFusion.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3063E0182FA75B340071A61B /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				3063E0132FA75B340071A61B /* AppRouter.swift */,
+				3063E0142FA75B340071A61B /* PersistenceManager.swift */,
+				3063E0152FA75B340071A61B /* PrivacyWebView.swift */,
+				3063E0162FA75B340071A61B /* SaveService.swift */,
+				3063E0172FA75B340071A61B /* StartMainView.swift */,
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 		34FD1D48D724394EEF1BCB1B /* Pods */ = {
@@ -146,6 +168,7 @@
 				746A25E62F867CB90076A047 /* Main.storyboard */,
 				746A25E72F867CB90076A047 /* SceneDelegate.swift */,
 				746A25E82F867CB90076A047 /* ViewController.swift */,
+				3063E0182FA75B340071A61B /* Router */,
 			);
 			path = HabitFusion;
 			sourceTree = "<group>";
@@ -270,6 +293,11 @@
 				746A25F02F867CB90076A047 /* HabitModels.swift in Sources */,
 				746A25F12F867CB90076A047 /* SampleDataFactory.swift in Sources */,
 				746A25F22F867CB90076A047 /* HabitListViewModel.swift in Sources */,
+				3063E0192FA75B340071A61B /* PrivacyWebView.swift in Sources */,
+				3063E01A2FA75B340071A61B /* PersistenceManager.swift in Sources */,
+				3063E01B2FA75B340071A61B /* AppRouter.swift in Sources */,
+				3063E01C2FA75B340071A61B /* StartMainView.swift in Sources */,
+				3063E01D2FA75B340071A61B /* SaveService.swift in Sources */,
 				746A25F32F867CB90076A047 /* ProgressViewModel.swift in Sources */,
 				746A25F42F867CB90076A047 /* StatisticsViewModel.swift in Sources */,
 				746A25F82F867CB90076A047 /* AddHabitView.swift in Sources */,
@@ -313,7 +341,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HabitFusion/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "RoutineReactor: Habit";
@@ -327,7 +355,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sar.r08t3n3r38ct0rh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -351,7 +379,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HabitFusion/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "RoutineReactor: Habit";
@@ -365,7 +393,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sar.r08t3n3r38ct0rh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
