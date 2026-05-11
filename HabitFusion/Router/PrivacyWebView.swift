@@ -63,7 +63,7 @@ struct HFOutboundBrowserPane: View {
                 ZStack {
                     Color.black.opacity(0.4)
                         .ignoresSafeArea()
-                    ProgressView()
+                    SwiftUI.ProgressView()
                         .progressViewStyle(CircularProgressViewStyle(tint: .white))
                         .scaleEffect(2.0)
                 }

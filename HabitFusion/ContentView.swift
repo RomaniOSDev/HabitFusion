@@ -68,7 +68,7 @@ struct ContentView: View {
                     }
 
                 NavigationView {
-                    ProgressView()
+                    HabitsProgressScreen()
                 }
                 .tabItem {
                     Label("Progress", systemImage: "point.3.connected.trianglepath.dotted")

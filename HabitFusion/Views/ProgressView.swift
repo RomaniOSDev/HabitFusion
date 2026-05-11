@@ -1,6 +1,6 @@
 import SwiftUI
 
-struct ProgressView: View {
+struct HabitsProgressScreen: View {
     @EnvironmentObject private var habitListViewModel: HabitListViewModel
     @EnvironmentObject private var progressViewModel: ProgressViewModel
 

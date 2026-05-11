@@ -3,67 +3,29 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		3063E0192FA75B340071A61B /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063E0152FA75B340071A61B /* PrivacyWebView.swift */; };
-		3063E01A2FA75B340071A61B /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063E0142FA75B340071A61B /* PersistenceManager.swift */; };
-		3063E01B2FA75B340071A61B /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063E0132FA75B340071A61B /* AppRouter.swift */; };
-		3063E01C2FA75B340071A61B /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063E0172FA75B340071A61B /* StartMainView.swift */; };
-		3063E01D2FA75B340071A61B /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3063E0162FA75B340071A61B /* SaveService.swift */; };
-		746A25EA2F867CB90076A047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746A25E02F867CB90076A047 /* Assets.xcassets */; };
-		746A25EC2F867CB90076A047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A25E42F867CB90076A047 /* LaunchScreen.storyboard */; };
-		746A25ED2F867CB90076A047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746A25E62F867CB90076A047 /* Main.storyboard */; };
-		746A25EE2F867CB90076A047 /* Color+App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25CA2F867CB90076A047 /* Color+App.swift */; };
-		746A25EF2F867CB90076A047 /* Color+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25CB2F867CB90076A047 /* Color+Hex.swift */; };
-		746A25F02F867CB90076A047 /* HabitModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25CD2F867CB90076A047 /* HabitModels.swift */; };
-		746A25F12F867CB90076A047 /* SampleDataFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25CF2F867CB90076A047 /* SampleDataFactory.swift */; };
-		746A25F22F867CB90076A047 /* HabitListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25D12F867CB90076A047 /* HabitListViewModel.swift */; };
-		746A25F32F867CB90076A047 /* ProgressViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25D22F867CB90076A047 /* ProgressViewModel.swift */; };
-		746A25F42F867CB90076A047 /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25D32F867CB90076A047 /* StatisticsViewModel.swift */; };
-		746A25F82F867CB90076A047 /* AddHabitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25D92F867CB90076A047 /* AddHabitView.swift */; };
-		746A25F92F867CB90076A047 /* MainDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25DA2F867CB90076A047 /* MainDashboardView.swift */; };
-		746A25FA2F867CB90076A047 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25DB2F867CB90076A047 /* ProgressView.swift */; };
-		746A25FB2F867CB90076A047 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25DC2F867CB90076A047 /* SettingsView.swift */; };
-		746A25FC2F867CB90076A047 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25DD2F867CB90076A047 /* StatisticsView.swift */; };
-		746A25FD2F867CB90076A047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25DF2F867CB90076A047 /* AppDelegate.swift */; };
-		746A25FE2F867CB90076A047 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25E12F867CB90076A047 /* ContentView.swift */; };
-		746A25FF2F867CB90076A047 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25E72F867CB90076A047 /* SceneDelegate.swift */; };
-		746A26002F867CB90076A047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A25E82F867CB90076A047 /* ViewController.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXFileReference section */
-		3063E0132FA75B340071A61B /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
-		3063E0142FA75B340071A61B /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
-		3063E0152FA75B340071A61B /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
-		3063E0162FA75B340071A61B /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
-		3063E0172FA75B340071A61B /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
 		3723304C6393FA911CDB0697 /* Pods_HabitFusion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HabitFusion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		746A25CA2F867CB90076A047 /* Color+App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+App.swift"; sourceTree = "<group>"; };
-		746A25CB2F867CB90076A047 /* Color+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Hex.swift"; sourceTree = "<group>"; };
-		746A25CD2F867CB90076A047 /* HabitModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitModels.swift; sourceTree = "<group>"; };
-		746A25CF2F867CB90076A047 /* SampleDataFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataFactory.swift; sourceTree = "<group>"; };
-		746A25D12F867CB90076A047 /* HabitListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListViewModel.swift; sourceTree = "<group>"; };
-		746A25D22F867CB90076A047 /* ProgressViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewModel.swift; sourceTree = "<group>"; };
-		746A25D32F867CB90076A047 /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
-		746A25D92F867CB90076A047 /* AddHabitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabitView.swift; sourceTree = "<group>"; };
-		746A25DA2F867CB90076A047 /* MainDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboardView.swift; sourceTree = "<group>"; };
-		746A25DB2F867CB90076A047 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
-		746A25DC2F867CB90076A047 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		746A25DD2F867CB90076A047 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
-		746A25DF2F867CB90076A047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		746A25E02F867CB90076A047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		746A25E12F867CB90076A047 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		746A25E22F867CB90076A047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		746A25E32F867CB90076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		746A25E52F867CB90076A047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		746A25E72F867CB90076A047 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		746A25E82F867CB90076A047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74FB77662EC4C547008564CE /* HabitFusion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HabitFusion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E321C3363E6644CE18111E2 /* Pods-HabitFusion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitFusion.release.xcconfig"; path = "Target Support Files/Pods-HabitFusion/Pods-HabitFusion.release.xcconfig"; sourceTree = "<group>"; };
 		A93BEF17B2566DFA63254270 /* Pods-HabitFusion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HabitFusion.debug.xcconfig"; path = "Target Support Files/Pods-HabitFusion/Pods-HabitFusion.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		30697C862FB20FA800EF45FD /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 74FB77652EC4C547008564CE /* HabitFusion */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		30697C6C2FB20FA700EF45FD /* HabitFusion */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (30697C862FB20FA800EF45FD /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = HabitFusion; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		74FB77632EC4C547008564CE /* Frameworks */ = {
@@ -84,18 +46,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3063E0182FA75B340071A61B /* Router */ = {
-			isa = PBXGroup;
-			children = (
-				3063E0132FA75B340071A61B /* AppRouter.swift */,
-				3063E0142FA75B340071A61B /* PersistenceManager.swift */,
-				3063E0152FA75B340071A61B /* PrivacyWebView.swift */,
-				3063E0162FA75B340071A61B /* SaveService.swift */,
-				3063E0172FA75B340071A61B /* StartMainView.swift */,
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
 		34FD1D48D724394EEF1BCB1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,78 +55,10 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
-		746A25CC2F867CB90076A047 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				746A25CA2F867CB90076A047 /* Color+App.swift */,
-				746A25CB2F867CB90076A047 /* Color+Hex.swift */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		746A25CE2F867CB90076A047 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				746A25CD2F867CB90076A047 /* HabitModels.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		746A25D02F867CB90076A047 /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				746A25CF2F867CB90076A047 /* SampleDataFactory.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
-		746A25D42F867CB90076A047 /* ViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				746A25D12F867CB90076A047 /* HabitListViewModel.swift */,
-				746A25D22F867CB90076A047 /* ProgressViewModel.swift */,
-				746A25D32F867CB90076A047 /* StatisticsViewModel.swift */,
-			);
-			path = ViewModels;
-			sourceTree = "<group>";
-		};
-		746A25DE2F867CB90076A047 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				746A25D92F867CB90076A047 /* AddHabitView.swift */,
-				746A25DA2F867CB90076A047 /* MainDashboardView.swift */,
-				746A25DB2F867CB90076A047 /* ProgressView.swift */,
-				746A25DC2F867CB90076A047 /* SettingsView.swift */,
-				746A25DD2F867CB90076A047 /* StatisticsView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		746A25E92F867CB90076A047 /* HabitFusion */ = {
-			isa = PBXGroup;
-			children = (
-				746A25CC2F867CB90076A047 /* Extensions */,
-				746A25CE2F867CB90076A047 /* Models */,
-				746A25D02F867CB90076A047 /* Utilities */,
-				746A25D42F867CB90076A047 /* ViewModels */,
-				746A25DE2F867CB90076A047 /* Views */,
-				746A25DF2F867CB90076A047 /* AppDelegate.swift */,
-				746A25E02F867CB90076A047 /* Assets.xcassets */,
-				746A25E12F867CB90076A047 /* ContentView.swift */,
-				746A25E22F867CB90076A047 /* Info.plist */,
-				746A25E42F867CB90076A047 /* LaunchScreen.storyboard */,
-				746A25E62F867CB90076A047 /* Main.storyboard */,
-				746A25E72F867CB90076A047 /* SceneDelegate.swift */,
-				746A25E82F867CB90076A047 /* ViewController.swift */,
-				3063E0182FA75B340071A61B /* Router */,
-			);
-			path = HabitFusion;
-			sourceTree = "<group>";
-		};
 		74FB775D2EC4C547008564CE = {
 			isa = PBXGroup;
 			children = (
-				746A25E92F867CB90076A047 /* HabitFusion */,
+				30697C6C2FB20FA700EF45FD /* HabitFusion */,
 				74FB77672EC4C547008564CE /* Products */,
 				34FD1D48D724394EEF1BCB1B /* Pods */,
 				2BA172534108927A57CB2B1E /* Frameworks */,
@@ -206,6 +88,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				30697C6C2FB20FA700EF45FD /* HabitFusion */,
 			);
 			name = HabitFusion;
 			productName = HabitFusion;
@@ -250,9 +135,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				746A25EA2F867CB90076A047 /* Assets.xcassets in Resources */,
-				746A25EC2F867CB90076A047 /* LaunchScreen.storyboard in Resources */,
-				746A25ED2F867CB90076A047 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,50 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				746A25EE2F867CB90076A047 /* Color+App.swift in Sources */,
-				746A25EF2F867CB90076A047 /* Color+Hex.swift in Sources */,
-				746A25F02F867CB90076A047 /* HabitModels.swift in Sources */,
-				746A25F12F867CB90076A047 /* SampleDataFactory.swift in Sources */,
-				746A25F22F867CB90076A047 /* HabitListViewModel.swift in Sources */,
-				3063E0192FA75B340071A61B /* PrivacyWebView.swift in Sources */,
-				3063E01A2FA75B340071A61B /* PersistenceManager.swift in Sources */,
-				3063E01B2FA75B340071A61B /* AppRouter.swift in Sources */,
-				3063E01C2FA75B340071A61B /* StartMainView.swift in Sources */,
-				3063E01D2FA75B340071A61B /* SaveService.swift in Sources */,
-				746A25F32F867CB90076A047 /* ProgressViewModel.swift in Sources */,
-				746A25F42F867CB90076A047 /* StatisticsViewModel.swift in Sources */,
-				746A25F82F867CB90076A047 /* AddHabitView.swift in Sources */,
-				746A25F92F867CB90076A047 /* MainDashboardView.swift in Sources */,
-				746A25FA2F867CB90076A047 /* ProgressView.swift in Sources */,
-				746A25FB2F867CB90076A047 /* SettingsView.swift in Sources */,
-				746A25FC2F867CB90076A047 /* StatisticsView.swift in Sources */,
-				746A25FD2F867CB90076A047 /* AppDelegate.swift in Sources */,
-				746A25FE2F867CB90076A047 /* ContentView.swift in Sources */,
-				746A25FF2F867CB90076A047 /* SceneDelegate.swift in Sources */,
-				746A26002F867CB90076A047 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		746A25E42F867CB90076A047 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				746A25E32F867CB90076A047 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		746A25E62F867CB90076A047 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				746A25E52F867CB90076A047 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		74FB777A2EC4C548008564CE /* Debug */ = {
@@ -355,7 +197,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sar.r08t3n3r38ct0rh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -393,7 +235,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.sar.r08t3n3r38ct0rh;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
